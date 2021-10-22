@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Loja Virtual de Jogos</title>
+    <meta name="description" content="Loja virtual com jogos para diversão">
+    <meta name="keywords" content="XBOX, PS, PlayStation, PC, Atari">
+    <meta name="author" content="Estudantes SENAI - SBO">
+    <meta name="viewport" content="Width=device-with, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family = PT + Serif & display = swap " rel=" stylesheet ">
+    <link rel="icon" href="./img/logo.jpg" type="image/jpg" sizes="16x16">
+</head>
+
+<body>
+    <header class="shadow mb-5 bg-body rounded">
+        <nav class="navbar nav-justified navbar-light bg-dark">
+            <img class="rounded-circle mx-2" src="./img/logo.jpg" width="50" height="40">
+            <div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link text-white" href="./inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link text-white" href="./Jogos.html">Jogos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link text-white" href="./Consoles.html">Console</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link text-white" href="./Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="flex-sm-fill text-sm-center nav-link text-white" href="./Carrinho.html">Carrinho</a>
+                    </li>
+            </div>
+            <li>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="pesquisa..." aria-label="Search">
+                    <button class="btn btn-outline-success mx-3" type="submit">Procurar</button>
+                </form>
+            </li>
+        </nav>
+    </header>
+
+
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./img/usar esse no carrinho.png" class="card-img-top shadow mb-5 bg-body rounded" alt="...">
+            </div>
+
+            <div class="col-sm-6">
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta explicabo, debitis libero repudiandae
+                    possimus, delectus porro harum suscipit itaque autem amet commodi non, ipsam voluptas inventore
+                    veniam mollitia sapiente sit.</p>
+                <div class="card-body">
+                    <h5 class="card-title">Forma de Pagamento</h5>
+
+                    <a href="#" class="btn btn-success">Dedito</a>
+                    <a href="#" class="btn btn-success">Crédito</a>
+                    <a href="#" class="btn btn-success">Pix</a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <form>
+        <div class="container my-5">
+            <div class="row g-3 text-center ">
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <label for="validationDefault01" class="form-label">Primeiro Nome</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationDefault02" class="form-label">Ultimo Nome</label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="Ultimo Nome"
+                            required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationDefaultUsername" class="form-label">Nome do usuário</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                            <input placeholder="@exemplo123" type="text" class="form-control"
+                                id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationDefault03" class="form-label">Cidade</label>
+                        <input placeholder="Campinas" type="text" class="form-control" id="validationDefault03"
+                            required>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="validationDefault04" class="form-label">Estado</label>
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected disabled value="">Selecionar...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-1">
+                        <label for="validationDefault05" class="form-label">Nº</label>
+                        <input placeholder="Nº" type="number" class="form-control" id="validationDefault05" required>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label for="validationDefault05" class="form-label">Cep</label>
+                        <input placeholder="11111-111" type="text" class="form-control" id="validationDefault05"
+                            required>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <label for="validationDefault01" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="validationDefault01" placeholder="Email" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationDefault02" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="( ) xxxx-xxxx"
+                            required>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                Aceite os termos e condições
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-success" type="submit">Enviar</button>
+                    </div>
+            </div>
+        </div>
+    </form>
+
+
+    <footer>
+        <div class="container-fluid bg-dark p-3">
+            <div class="row col-sm12 text-white text-center">
+                <p>Games Ltda</p>
+                <p>Desenvolvido por Willian</p>
+            </div>
+            <div class="text-center">
+                <a href="https://www.youtube.com/"><img
+                        src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/50/000000/external-youtube-multimedia-prettycons-lineal-color-prettycons.png"
+                        height="30px" width="30px" /></a>
+                <a href="https://www.whatsapp.com/?lang=pt_br"><img
+                        src="https://img.icons8.com/color/48/000000/whatsapp--v2.png" height="30px" width="30px" /></a>
+                <a href="https://www.facebook.com/"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"
+                        height="30px" width="30px" /></a>
+                <a href="https://www.instagram.com/"><img
+                        src="https://img.icons8.com/fluency/24/000000/instagram-new.png" height="30px"
+                        width="30px" /></a>
+                <a href="https://www.google.com.br/maps/preview"><img
+                        src="https://img.icons8.com/ios-filled/50/000000/google-maps.png" height="30px"
+                        width="30px" /></a>
+                <a href="https://www.telefonica.com.br/"><img
+                        src="https://img.icons8.com/material-outlined/24/000000/no-phones--v2.png" height="30px"
+                        width="30px" /></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img
+                        src="https://img.icons8.com/glyph-neue/64/000000/secured-letter.png" height="30px"
+                        width="30px" /></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
